@@ -2,12 +2,19 @@ package abdulmuqeeth.uic.com.discoverchicago;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import abdulmuqeeth.uic.com.discoverchicago.AttractionsFragment.ListSelectionListener;
 
-public class AttractionsActivity extends AppCompatActivity {
+public class AttractionsActivity extends AppCompatActivity implements
+        ListSelectionListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_attractions);
+    }
+
+    @Override
+    public void onListSelection(int index) {
+        //TODO implent onListSelection 
     }
 }
