@@ -9,7 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 
-public class AttractionsFragment extends ListFragment {
+public class AttractionsNameFragment extends ListFragment {
 
 
     public interface ListSelectionListener{
